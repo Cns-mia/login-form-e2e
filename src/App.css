@@ -1,0 +1,60 @@
+.login-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group input[type='email'],
+.form-group input[type='password'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-group input.invalid {
+  border-color: crimson;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.error-message {
+  color: crimson;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #9bbcf5;
+  cursor: not-allowed;
+}
+
+.success {
+  text-align: center;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
